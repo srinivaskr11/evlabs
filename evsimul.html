@@ -1,0 +1,196 @@
+ <!doctype html>
+  <html lang="en">
+    <head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="stylesevs.css">
+
+     <title>Hello, world!</title>
+   </head>
+   <body>
+
+
+     <div class="masthead clearfix">
+       <div class="inner">
+         <h3 class="masthead-brand">EV-Labs</h3>
+         <nav class="nav nav-masthead  " role="navigation">
+           <a class="nav-link active" href="index.html">Home</a>
+           <a class="nav-link" href="#">Ev-lab</a>
+           <a class="nav-link" href="contact.html">Contact</a>
+           <a class="nav-link" href="about.html">About-us</a>
+         </nav>
+       </div>
+
+
+
+     </div>
+<hr>
+
+<form  action="index.html" method="post">
+
+
+       <div class="row no-gutters">
+    <div class="col col-md-4">
+<h3>Input design parameters</h3>
+
+ <div class="subscribe-form">
+     <form action="#" method="post">
+         <input type="number" placeholder="Number of passengers">
+          <span><i class="sp">in no</i></span>
+
+
+          <input type="number" placeholder="Passenger weight">
+          <span><i class="sp">in Kg</i></span>
+
+           <input type="number" placeholder="Kerb weight">
+           <span><i class="sp">in Kg</i></span>
+
+            <input type="number" placeholder="Pay load">
+           <span><i class="sp">in Kg</i></span>
+
+            <input type="number" placeholder="wheel diameter">
+            <span><i class="sp">in Inch</i></span>
+
+             <input type="number" placeholder="Frontal-area">
+             <span><i class="sp">in sq-m</i></span>
+
+
+              <input type="number" placeholder="Rolling Resistance">
+              <span><i class="sp">Coeff</i></span>
+
+
+              <input type="number" placeholder="Drag coeff">
+               <span><i class="sp">Coeff</i></span>
+
+
+              <input type="number" placeholder="Gradient">
+              <span><i class="sp">in Deg</i></span>
+
+
+              <input type="number" placeholder="Drive Train Effieciency">
+               <span><i class="sp">in %</i></span>
+
+
+                <input type="number" placeholder="Pick up Speed">
+               <span><i class="sp">in sec</i></span>
+
+
+      </form>
+</div>
+
+
+
+   </div>
+    <div class="col col-md-4">
+<h3>Observed Results</h3>
+       <div class="subscribe-form">
+           <form action="#" method="post">
+               <input type="number" placeholder="Battery Energy Capacity">
+                <span><i class="sp">in KWh</i></span>
+
+                <input type="number" placeholder="Battery Discharge Time">
+                 <span><i class="sp">in hr</i></span>
+
+
+
+
+                 <input type="number" placeholder="Avg Power">
+                  <span><i class="sp">in KW</i></span>
+
+
+
+
+                  <input type="number" placeholder="Range with passengers">
+                   <span><i class="sp">in Km</i></span>
+
+                    <input type="number" placeholder="Ang speed">
+                     <span><i class="sp">in Km/hr</i></span>
+
+                      <input type="number" placeholder="Dynometer Test">
+                      <span><i class="sp">in Km</i></span>
+
+
+                       <input type="number" placeholder="Max speed @ Gradient">
+                       <span><i class="sp">in Km/hr</i></span>
+
+             </form>
+       </div>
+
+
+
+    </div>
+<div class="col col-md-4">
+  <div class="wrap">
+
+<div class="col">
+
+  <div class="box green">
+<p>1.Payload is considred for Dynometer test and actual range calculation<br>2.If you set number of passengers payload is not considred for actual range calculations <br> 3.For accelaration test only one passenger is considered</p>
+
+  </div>
+</div>
+</div>
+</div>
+
+  </div>
+
+ <hr>
+ <div class="row no-gutters">
+
+ <div class="col col-md-4">
+
+
+ <h3>Battery Details</h3>
+   <div class="">
+     <div class="subscribe-form">
+         <form action="#">
+             <input type="number" placeholder="Battery Capacity">
+             <span><i class="sp">in Ah</i></span>
+
+  <br>
+
+               <input type="number" placeholder="Battery Voltage">
+              <span><i class="sp">in v</i></span>
+
+
+     <br>
+
+           </form>
+          </div>
+     </div>
+     </div>
+
+
+
+
+
+     <div class="col col-md-4">
+         <h3>Fuel-Economy</h3>
+          <div class="subscribe-form">
+              <form action="#">
+                  <output name="result" ></output>
+                    <span><i class="sp">Rs/KWh</i></span>
+                    <output name="result" ></output>
+                    <span><i class="sp">Rs/Km</i></span>
+  </div>
+        </div>
+     </div>
+      <button type="submit" class="btn btn-outline-secondary btn-lg">Run</button>
+
+      <button type="submit" class="btn btn-outline-secondary btn-lg">Plot</button>
+     <button type="submit" class="btn btn-outline-warning btn-lg">Clear</button>
+    </form>
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jquery.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="speedometer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,180 @@
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 300px;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form output{
+  width: 300px;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 16px;
+  transform: rotate(-6deg);
+}
+
+
+input,output{
+  margin-top: 10px;
+  border-radius:10px;
+}
+
+
+body{
+  background-color: #000;
+}
+
+
+span{
+  color: #fff;
+}
+
+
+h3{
+  color: grey;
+}
+
+button{
+  margin-right: 10px;
+  margin-left:  10px;
+  margin-top: 15px;
+}
+
+
+
+
+
+
+.masthead {
+  margin-bottom: 2rem;
+  display: table;
+
+
+
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+margin-right: 20px;
+margin-left: 10px;
+
+
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: bold;
+  color: rgba(255,255,255,.5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255,255,255,.25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+
+
+
+.wrap{
+  display: flex;;
+  margin: 0 auto;
+  max-width: 1250px;
+  justify-content: space-between;
+  align-items:center;
+
+}
+
+
+.box{
+  max-width: 450px;
+  height: 300px;
+  margin-top: 30px;
+  padding-right:26px;
+  padding-left:26px;
+  border-radius:5px;
+  font-size: 1.33rem;
+  box-shadow: 0 8px 18px 3px rgba(0, 0, 0, 13);
+box-sizing: border-box;
+transition: 2s ease;
+cursor: pointer;
+}
+
+
+@media(max-width:1200px) {
+  .header{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  .Features{
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+
+  .box{
+    font-size: 1.3rem;
+  }
+
+  p{
+text-align: center;
+    font-size: 1rem;
+  }
+
+}
+
+
+.Features{
+  margin-bottom: 10px;
+  padding-bottom:15px;
+}
+
+
+
+
+
+
+
+.box:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+
+.green{
+  border-top: 5px solid #ade498;
+  background-color: #000;
+  color: #fff;
+}
